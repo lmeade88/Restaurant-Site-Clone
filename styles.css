@@ -1,0 +1,197 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  *{
+    text-align: center;
+    color: black;
+  }
+
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  span {
+    font-size: 150%;
+  }
+  
+  nav{
+    float: right;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  nav ul{
+    list-style: none;
+    width: 100%;
+    float: right;
+    padding-left: 50%;
+    text-decoration: none;
+  }
+
+  nav ul li {
+    float: left;
+    padding: 0 3%;
+    text-decoration: none;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+  }
+
+  main > section *{
+    text-align: left;
+    padding-left: 3%;
+    list-style: none;
+    text-decoration: none;  
+  }
+
+  main >section {
+    height: 300px;
+    padding: 10%;
+  }
+
+  nav + section ul li{
+    float: left;
+    padding: 0.3%;;
+  }
+
+  main section h1{
+    width: 25%;
+    margin: 0;
+  }
+
+  main + section * {
+    width: 50%;
+    text-align: left;
+    padding: 0;
+  }
+
+  main + section span{
+    text-align: left;
+  }
+
+  #about {
+    background-color: rgb(139, 114, 67);
+    height: 500px;
+  }
+
+  #about section {
+    width: 60%;
+    float: right;
+    padding: 30px;
+  }
+
+  #about section h1 {
+    margin: 0;
+  }
+
+  h1{
+    font-size: 400% ;
+  }
+
+  main {
+    height: 600px;
+    background-color: grey;
+  }
+
+  main + section + section {
+    background: green;
+    height: 660px;
+  }
+
+  main + section + section * {
+    padding: 30px;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  main + section + section ul li {
+    display: inline;
+    width: 20px;
+    padding: 0;
+    width: 10px;
+    list-style: none;
+  }
+  
+.item {
+  float: left;
+  background-color: darkgray;
+  width: 20%;
+  text-align: center;
+  padding: 30px;
+  margin: 15px;
+}
+
+#menu {
+  text-align: center;
+  width: 100%;
+  margin-left: 7%;
+  padding-bottom: 30px;;
+}
+
+#opening {
+  background: grey;
+  padding: 60px 0;
+}
+
+#opening img {
+  text-align: center;
+}
+
+#start {
+  width: 50%;
+  float: left;
+}
+
+#start h3, #start h4 {
+  text-align: left;
+  padding-left: 50%;
+}
+
+#end {
+  width: 50%;
+  float: left;
+}
+
+#end h3, #end h4 {
+  text-align: left;
+  padding-left: 20%;
+}
+
+#test {
+  background-color: aquamarine;
+  padding: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#test span {
+  width: 100%;
+}
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
